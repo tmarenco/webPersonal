@@ -1,6 +1,12 @@
 .header li {
     list-style: none;
     margin: 5px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.header li:hover {
+    color: #00b4d8
 }
 
 .header ul {

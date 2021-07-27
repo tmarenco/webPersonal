@@ -7,7 +7,7 @@ function Header() {
       <ul>
         <Link to="/"><li>Inicio</li></Link>
         <Link to="/proyectos"><li>Proyectos</li></Link>
-        <Link to="/tecnologias"><li>Tecnologías</li></Link>
+        <Link to="/tecnologias"><li>Skills e Idiomas</li></Link>
         <Link to="/sobre-mi"><li>Sobre mi</li></Link>
         <Link to="/contacto"><li>Contacto</li></Link>
       </ul>

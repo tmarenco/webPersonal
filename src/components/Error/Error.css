@@ -1,3 +1,12 @@
+.paginaError{
+    text-align: center;
+    margin: 1rem;
+}
 
+.fa-frown{
+    font-size: 10rem;
+}
 
-
+.fa-frown:hover{
+    color:black
+}

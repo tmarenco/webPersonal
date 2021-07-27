@@ -1,3 +1,35 @@
+.iconTec {
+    padding: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    margin: 1rem 0;
+    
+}
+.fa-js{
+    color: yellow;
+}
 
+.fa-html5{
+    color: orangered;
+}
 
+.fa-css3-alt {
+    color: #00b4d8;
+}
 
+.fa-node{
+    color: limegreen;
+}
+
+.fa-react{
+    color: lightblue;
+}
+
+.tituloTec {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
