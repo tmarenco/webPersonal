@@ -13,7 +13,7 @@ class Inicio extends Component {
 
   indicarNombre(){
     let input = document.querySelector(".inputNombre")
-    if(input.value ==""){
+    if(input.value ===""){
       this.setState({
         nombre: "invitado/a"
       })
@@ -34,6 +34,7 @@ class Inicio extends Component {
         <br></br>
         <p className="mensajeError"></p>
         <button onClick={ (e)=> this.indicarNombre()}>Aceptar</button>
+        <h2 className="tituloTomas">TOMÁS MARENCO</h2>
       </div>
     );
   }

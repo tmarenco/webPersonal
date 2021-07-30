@@ -38,3 +38,18 @@ p{
 a{
     font-size: 0.8rem;
 }
+
+.tituloContacto{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+@media (min-width: 600px){
+    .infoContacto{
+        text-align: center;
+    }
+    .infoContacto p,
+    .infoContacto a{
+        font-size: 1.5rem;
+    }    
+}

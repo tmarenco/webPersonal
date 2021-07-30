@@ -56,3 +56,11 @@ button {
     font-family: 'Zen Dots', cursive;
     margin: 5px;
 }
+
+
+@media (min-width: 600px){
+    .fotoPerfil{
+        width: 25%;
+        height: 25%;
+    }
+}

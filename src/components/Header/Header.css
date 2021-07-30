@@ -1,24 +1,52 @@
-.header li {
-    list-style: none;
-    margin: 5px 5px;
-    color: white;
-    text-decoration: none;
-}
-
-.header li:hover {
+.header p:hover,
+.fa-bars:hover,
+.fa-times-circle:hover{
     color: #00b4d8
 }
 
-.header ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.fa-times-circle{
+    font-size: 1.3rem;
+}
+
+.itemHeader{
+    margin: 1rem
+}
+
+
+.desaparece{
+    display: none
+}
+.aparece{
+    display: block
 }
 
 .header {
     border-bottom: white solid 0.5rem;
+    text-align: center;
+}
+
+.fa-bars{
+    font-size: 2.5rem;
+    margin: 1rem;
+    border: white solid 5px;
+    padding: 0.1rem 0.4rem;
+    border-radius: 20%;
 }
 
 
+@media (min-width: 600px) {
+    .headerPc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
+    .itemHeader{
+        margin: 1.5rem
+    }
+
+    .itemCellphone,
+    .menuIcon{
+        display: none
+    }
+}

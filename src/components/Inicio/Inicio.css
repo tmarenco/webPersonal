@@ -10,3 +10,18 @@
     text-align: center;
 }
 
+@keyframes animacion {
+    0%{
+        opacity: 25%;
+        color: white
+    }
+    100%{
+        opacity: 100%;
+        color: black
+    }
+}
+
+.tituloTomas{
+    font-size: 3rem;
+    animation: animacion 6s infinite;
+}
