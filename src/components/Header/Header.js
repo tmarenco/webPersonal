@@ -14,7 +14,6 @@ function Header() {
     <div className="header">
       <div className="menuIcon">
         <FontAwesomeIcon icon={faBars} onClick ={()=>setCellPhoneMenu(!cellPhoneMenu)}className= {cellPhoneMenu? "fas fa-bars" : "desaparece fas fa-bars"}/>
-        {/* <i onClick ={()=>setCellPhoneMenu(!cellPhoneMenu)}className= {cellPhoneMenu? "fas fa-bars" : "desaparece fas fa-bars"}></i> */}
       </div>
       <div className={cellPhoneMenu? "desaparece headerPc" : "aparece headerPc"}>
           <Link to="/"><p className="itemHeader">INICIO</p></Link>
@@ -23,7 +22,6 @@ function Header() {
           <Link to="/sobre-mi"><p className="itemHeader">SOBRE MI</p></Link>
           <Link to="/contacto"><p className="itemHeader">CONTACTO</p></Link>
           <FontAwesomeIcon icon={faTimesCircle} onClick={()=>setCellPhoneMenu(!cellPhoneMenu)} className="fas fa-times-circle itemHeader itemCellphone"/>
-          {/* <i onClick={()=>setCellPhoneMenu(!cellPhoneMenu)} className="fas fa-times-circle itemHeader itemCellphone"></i> */}
       </div>
     </div>
   );

@@ -15,24 +15,26 @@ function Tecnologias() {
         <FontAwesomeIcon icon={['fab', 'node']} className="fab fa-node iconTec"></FontAwesomeIcon>
         <FontAwesomeIcon icon={['fab', 'react']} className="fab fa-react iconTec"></FontAwesomeIcon>
       </div>
-      <h2>Otras Skills</h2>
-      <ul>
-        <li>Express</li>
-        <li>MySQL</li>
-        <li>VSCode</li>
-        <li>Creacion y consumo de APIs</li>
-        <li>Patron de Arquitectura MVC</li>
-        <li>SCRUM</li>
-        <li>Postman</li>
-        <li>Sequelize</li>
-        <li>Trello</li>
-      </ul>
-      <div>
-        <h3 className="tituloTec">Idiomas</h3>
+      <div className="skillsIdiomas">
+        <h2>Otras Skills</h2>
         <ul>
-          <li>Espaniol - Nativo</li>
-          <li>Ingles - Intermedio Avanzado</li>
+          <li>Express</li>
+          <li>MySQL</li>
+          <li>VSCode</li>
+          <li>Creacion y consumo de APIs</li>
+          <li>Patron de Arquitectura MVC</li>
+          <li>SCRUM</li>
+          <li>Postman</li>
+          <li>Sequelize</li>
+          <li>Trello</li>
         </ul>
+        <div>
+          <h3 className="tituloTec">Idiomas</h3>
+          <ul>
+            <li>Espaniol - Nativo</li>
+            <li>Ingles - Intermedio Avanzado</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
