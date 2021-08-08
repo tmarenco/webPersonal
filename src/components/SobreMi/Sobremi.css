@@ -53,7 +53,7 @@ button {
     display: inline-block;
     font-size: 1rem;
     font-weight:900;
-    font-family: 'Akira Expanded', sans-serif;
+    font-family: akira;
     margin: 5px;
 }
 

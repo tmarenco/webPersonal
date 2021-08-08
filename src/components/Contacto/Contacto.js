@@ -9,7 +9,7 @@ function Contacto() {
     <div>
       <div className="infoContacto">
         <p className="tituloContacto">E-mail:</p>
-        <p>tmarencocastello@gmail.com</p>
+        <p className="correo">tmarencocastello@gmail.com</p>
         <p className="tituloContacto">Celular:</p>
         <p>15-3516-7954</p>
         <p className="tituloContacto">Linkedin: </p><a href="https://www.linkedin.com/in/tmarenco/">https://www.linkedin.com/in/tmarenco/</a>

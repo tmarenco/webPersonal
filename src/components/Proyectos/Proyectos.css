@@ -1,12 +1,9 @@
 .tituloProyectos{
     text-decoration: underline;
+    text-align: center;
     font-size: 1.2rem;
     margin: 1rem;
 }
 
 
-@media (min-width: 650px){
-    .tituloProyectos{
-        text-align: center;
-    }
-}
+
