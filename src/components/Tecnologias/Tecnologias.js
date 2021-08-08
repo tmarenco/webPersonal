@@ -1,15 +1,19 @@
 import './Tecnologias.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+library.add(fab)
 
 function Tecnologias() {
   return (
     <div>
       <div className="skills">
         <h3 className="tituloTec">Skills</h3>
-        <i className="fab fa-js iconTec"></i>
-        <i className="fab fa-html5 iconTec"></i>
-        <i className="fab fa-css3-alt iconTec"></i>
-        <i className="fab fa-node iconTec"></i>
-        <i className="fab fa-react iconTec"></i>
+        <FontAwesomeIcon icon={['fab', 'js']} className="fab fa-js iconTec"></FontAwesomeIcon>
+        <FontAwesomeIcon icon={['fab', 'html5']} className="fab fa-html5 iconTec"></FontAwesomeIcon>
+        <FontAwesomeIcon icon={['fab', 'css3']} className="fab fa-css3-alt iconTec"></FontAwesomeIcon>
+        <FontAwesomeIcon icon={['fab', 'node']} className="fab fa-node iconTec"></FontAwesomeIcon>
+        <FontAwesomeIcon icon={['fab', 'react']} className="fab fa-react iconTec"></FontAwesomeIcon>
       </div>
       <h2>Otras Skills</h2>
       <ul>
