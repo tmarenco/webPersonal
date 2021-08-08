@@ -13,11 +13,11 @@ function Header() {
         <i onClick ={()=>setCellPhoneMenu(!cellPhoneMenu)}className= {cellPhoneMenu? "fas fa-bars" : "desaparece fas fa-bars"}></i>
       </div>
       <div className={cellPhoneMenu? "desaparece headerPc" : "aparece headerPc"}>
-          <Link to="/"><p className="itemHeader">Inicio</p></Link>
-          <Link to="/proyectos"><p className="itemHeader">Proyectos</p></Link>
-          <Link to="/tecnologias"><p className="itemHeader">Skills e Idiomas</p></Link>
-          <Link to="/sobre-mi"><p className="itemHeader">Sobre mi</p></Link>
-          <Link to="/contacto"><p className="itemHeader">Contacto</p></Link>
+          <Link to="/"><p className="itemHeader">INICIO</p></Link>
+          <Link to="/proyectos"><p className="itemHeader">PROYECTOS</p></Link>
+          <Link to="/tecnologias"><p className="itemHeader">SKILLS E IDIOMAS</p></Link>
+          <Link to="/sobre-mi"><p className="itemHeader">SOBRE MI</p></Link>
+          <Link to="/contacto"><p className="itemHeader">CONTACTO</p></Link>
           <i onClick={()=>setCellPhoneMenu(!cellPhoneMenu)} className="fas fa-times-circle itemHeader itemCellphone"></i>
       </div>
     </div>

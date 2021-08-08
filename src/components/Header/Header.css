@@ -34,7 +34,7 @@
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .headerPc {
         display: flex;
         flex-direction: row;

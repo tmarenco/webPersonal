@@ -2,6 +2,5 @@ body{
   background: rgb(12,9,73);
   background: linear-gradient(90deg, rgba(12,9,73,1) 0%, rgba(13,13,112,1) 50%, rgba(12,9,73,1) 100%);
   color: white;
-  font-family: 'Zen Dots', cursive;
-
+  font-family: 'Akira Expanded', sans-serif;
 }

@@ -33,10 +33,10 @@
 }
 
 p{
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 a{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .tituloContacto{
@@ -44,12 +44,12 @@ a{
     font-weight: bolder;
 }
 
-@media (min-width: 600px){
+@media (min-width: 700px){
     .infoContacto{
         text-align: center;
     }
     .infoContacto p,
     .infoContacto a{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }    
 }

@@ -17,7 +17,7 @@
 }
 
 .informacion{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 a{
@@ -53,7 +53,7 @@ button {
     display: inline-block;
     font-size: 1rem;
     font-weight:900;
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Akira Expanded', sans-serif;
     margin: 5px;
 }
 
@@ -63,4 +63,11 @@ button {
         width: 25%;
         height: 25%;
     }
+
+    .informacion, 
+    a,
+    .descripcion{
+        font-size: 1rem;
+    }
+
 }

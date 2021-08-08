@@ -4,4 +4,8 @@
 }
 
 
-
+@media (min-width: 650px){
+    .tituloProyectos{
+        text-align: center;
+    }
+}

@@ -11,14 +11,14 @@ function Tecnologias() {
         <i className="fab fa-node iconTec"></i>
         <i className="fab fa-react iconTec"></i>
       </div>
-      <h2>Más Skills</h2>
+      <h2>Otras Skills</h2>
       <ul>
         <li>Express</li>
         <li>MySQL</li>
         <li>VSCode</li>
-        <li>Creación y consumo de APIs</li>
-        <li>Patrón de arquitectura MVC</li>
-        <li>Metodologías ágiles - SCRUM</li>
+        <li>Creacion y consumo de APIs</li>
+        <li>Patron de Arquitectura MVC</li>
+        <li>SCRUM</li>
         <li>Postman</li>
         <li>Sequelize</li>
         <li>Trello</li>
@@ -26,8 +26,8 @@ function Tecnologias() {
       <div>
         <h3 className="tituloTec">Idiomas</h3>
         <ul>
-          <li>Español - Nativo</li>
-          <li>Inglés - Intermedio Avanzado</li>
+          <li>Espaniol - Nativo</li>
+          <li>Ingles - Intermedio Avanzado</li>
         </ul>
       </div>
     </div>

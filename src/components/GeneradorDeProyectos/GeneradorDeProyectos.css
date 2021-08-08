@@ -1,5 +1,6 @@
 .generador{
-    border-bottom: solid white 0.5rem;
+    border-bottom: solid black 0.5rem;
+    text-align: center;
 }
 
 .nombreProyecto{
@@ -7,4 +8,26 @@
 }
 .repositorio{
     font-size: 0.6rem;
+    word-wrap: break-word;
+}
+
+.imageWebsite{
+    width: 15rem;
+    height: 8rem;
+    filter: grayscale(100%);
+    margin: 10px 0
+}
+
+.imageWebsite:hover{
+    filter: grayscale(0%);
+}
+
+@media (min-width: 650px){
+    .generador{
+        text-align:start;
+        display: flex;
+    }
+    .derecha{
+        margin-left: auto;
+    }
 }

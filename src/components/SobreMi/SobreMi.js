@@ -4,11 +4,13 @@ import './Sobremi.css';
 function SobreMi() {
   return (
     <div className="sobreMi">
-      <h1 className= "titulo">Tomás Marenco</h1>
+      <h1 className= "titulo">Tomas Marenco</h1>
       <img className= "fotoPerfil" src="/documents/perfil.png" alt="foto"></img>
-      <p>Soy desarrollador web full stack y estoy en busca de mi primer empleo en el sector IT. Me considero una persona proactiva, autodidacta y siempre en búsqueda de seguir creciendo profesionalmente.</p>
+      <p className="descripcion">Soy desarrollador web full stack y estoy en busca de mi primer empleo en el sector IT. 
+        Me considero una persona proactiva, autodidacta y siempre en busca de seguir creciendo profesionalmente. 
+        Quiero formar parte de un equipo de desarrolladores en el que pueda mejorar mis habilidades y conocimientos y aportar al grupo desde mi lugar.</p>
       <div className="informacion">
-        <h3 className="tituloExperiencia">Información personal</h3>
+        <h3 className="tituloExperiencia">Informacion personal</h3>
         <h4>Fecha de nacimiento: 07/02/1996</h4>
         <h4>Nacionalidad: Argentina</h4>
         <h4>Localidad: Capital Federal</h4>

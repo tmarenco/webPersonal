@@ -1,6 +1,8 @@
 .inputNombre {
-    height: 1.5rem;
-    width: 15rem;
+    padding: 5px;
+    border: black solid 5px;
+    border-radius: 20px;
+    
 }
 
 .inputNombre:hover {
@@ -12,16 +14,60 @@
 
 @keyframes animacion {
     0%{
-        opacity: 25%;
-        color: white
+        opacity: 0%;
     }
     100%{
         opacity: 100%;
-        color: black
     }
 }
 
 .tituloTomas{
-    font-size: 3rem;
     animation: animacion 6s infinite;
+    font-size: 2.5rem;
+    display: inline-block;
+    position: relative;
+}
+
+.animacionSubrayado{
+    display: inline-block;
+    position: relative;
+}
+
+.animacionSubrayado:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: -5px;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.animacionSubrayado:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.mensajeError {
+    color: red
+}
+
+.logoTomas{
+    height: 70%;
+    width: 70%;
+    animation: animacion 6s infinite;
+}
+
+
+@media(min-width: 600px){
+    .tituloTomas{
+        font-size: 5rem;
+    }
+    .logoTomas{
+        height: 50%;
+        width: 50%; 
+    }
 }

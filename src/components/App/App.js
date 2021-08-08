@@ -5,7 +5,6 @@ import Tecnologias from "../Tecnologias/Tecnologias"
 import SobreMi from "../SobreMi/SobreMi"
 import Inicio from "../Inicio/Inicio"
 import Header from "../Header/Header"
-import Pruebas from "../Pruebas/Pruebas"
 import Error from "../Error/Error"
 
 import {Route, Switch} from "react-router-dom"
@@ -22,7 +21,6 @@ function App() {
         <Route path="/proyectos" component={Proyectos} />
         <Route path="/sobre-mi" component={SobreMi} />
         <Route path="/tecnologias" component={Tecnologias} />
-        <Route path="/pruebas" component={Pruebas} />
         <Route component={Error} />
       </Switch>
     </div>

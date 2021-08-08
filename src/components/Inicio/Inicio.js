@@ -1,43 +1,48 @@
 import './Inicio.css';
-import React, {Component} from "react"
-
-class Inicio extends Component {
-
-  constructor(){
-    super();
-    this.state = {
-      nombre: "invitado/a"
-    }
-  }
+import React, {useState} from 'react';
 
 
-  indicarNombre(){
+function Inicio() {
+  const [name, setName] = useState("invitado/a")
+  const [mensajeError, setMensajeError] = useState(false)
+  const [saludo, setSaludo] = useState(false)
+
+
+  const change = ()=>{
     let input = document.querySelector(".inputNombre")
-    if(input.value ===""){
-      this.setState({
-        nombre: "invitado/a"
-      })
+    if (input.value === ""){
+      setMensajeError(true)
     } else {
-        this.setState({
-        nombre: input.value
-      })
+      setMensajeError(false)
+      setName(input.value)
+      setSaludo(true)
     }
   }
-  render(){
-    let input = document.querySelector(".inputNombre")
+  
+  
 
-    return (
-      <div className="inicio">
-        <h1>Hola {this.state.nombre}!</h1>
-        <h2>Introducí tu nombre:</h2>
-        <input className="inputNombre"></input>
+  return (
+    <div className="inicio">
+      <div className={saludo? "desaparece" : "aparece"}>
+        <h2 className="titulo">Hola {name} !</h2>
+        <h2>Introduci tu nombre :</h2>
+        <input className="inputNombre" placeholder="Nombre"></input>
         <br></br>
-        <p className="mensajeError"></p>
-        <button onClick={ (e)=> this.indicarNombre()}>Aceptar</button>
-        <h2 className="tituloTomas">TOMÁS MARENCO</h2>
+        <button onClick={()=> change()}>Aceptar</button>
+        <p className={mensajeError? "mensajeError" : "desaparece"}>El campo no puede estar incompleto!</p>
       </div>
-    );
-  }
+      <div className={saludo? "aparece" : "desaparece"}>
+        <h2 className="titulo">Bienvenido/a, {name} !</h2>
+        <p>Te invito a navegar por mi web para conocer sobre mi</p>
+      </div>
+      <div></div>
+      <div className="logoTitulo">
+        <h2 className="tituloTomas animacionSubrayado">TOMAS MARENCO</h2>
+        <img className="logoTomas" src="./documents/logoBlanco.png" alt="logo"></img>
+      </div>
+    </div>
+  );
 }
+
 
 export default Inicio;
