@@ -27,7 +27,7 @@ function Inicio() {
         <h2>Introduci tu nombre :</h2>
         <input className="inputNombre" placeholder="Nombre"></input>
         <br></br>
-        <button onClick={()=> change()}>Aceptar</button>
+        <button onClick={()=> change()}>ACEPTAR</button>
         <p className={mensajeError? "mensajeError" : "desaparece"}>El campo no puede estar incompleto!</p>
       </div>
       <div className={saludo? "aparece" : "desaparece"}>
