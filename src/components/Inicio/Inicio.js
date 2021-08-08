@@ -1,7 +1,6 @@
 import './Inicio.css';
 import React, {useState} from 'react';
 
-
 function Inicio() {
   const [name, setName] = useState("invitado/a")
   const [mensajeError, setMensajeError] = useState(false)

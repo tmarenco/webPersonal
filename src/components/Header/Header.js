@@ -1,4 +1,7 @@
 import './Header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars  } from '@fortawesome/free-solid-svg-icons'
+import { faTimesCircle  } from '@fortawesome/free-solid-svg-icons'
 import {Link} from "react-router-dom"
 import React, {useState} from 'react';
 
@@ -10,7 +13,8 @@ function Header() {
   return (
     <div className="header">
       <div className="menuIcon">
-        <i onClick ={()=>setCellPhoneMenu(!cellPhoneMenu)}className= {cellPhoneMenu? "fas fa-bars" : "desaparece fas fa-bars"}></i>
+        <FontAwesomeIcon icon={faBars} onClick ={()=>setCellPhoneMenu(!cellPhoneMenu)}className= {cellPhoneMenu? "fas fa-bars" : "desaparece fas fa-bars"}/>
+        {/* <i onClick ={()=>setCellPhoneMenu(!cellPhoneMenu)}className= {cellPhoneMenu? "fas fa-bars" : "desaparece fas fa-bars"}></i> */}
       </div>
       <div className={cellPhoneMenu? "desaparece headerPc" : "aparece headerPc"}>
           <Link to="/"><p className="itemHeader">INICIO</p></Link>
@@ -18,7 +22,8 @@ function Header() {
           <Link to="/tecnologias"><p className="itemHeader">SKILLS E IDIOMAS</p></Link>
           <Link to="/sobre-mi"><p className="itemHeader">SOBRE MI</p></Link>
           <Link to="/contacto"><p className="itemHeader">CONTACTO</p></Link>
-          <i onClick={()=>setCellPhoneMenu(!cellPhoneMenu)} className="fas fa-times-circle itemHeader itemCellphone"></i>
+          <FontAwesomeIcon icon={faTimesCircle} onClick={()=>setCellPhoneMenu(!cellPhoneMenu)} className="fas fa-times-circle itemHeader itemCellphone"/>
+          {/* <i onClick={()=>setCellPhoneMenu(!cellPhoneMenu)} className="fas fa-times-circle itemHeader itemCellphone"></i> */}
       </div>
     </div>
   );

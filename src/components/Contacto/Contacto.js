@@ -16,10 +16,6 @@ function Contacto() {
         <p className="tituloContacto">Github: </p><a href="https://github.com/tmarenco">https://github.com/tmarenco</a>
       </div>
       <div className="icons">
-        {/* <a href="https://www.linkedin.com/in/tmarenco/"><i className="fab fa-linkedin-in iconContacto"></i></a>
-        <a href="mailto:tmarencocastello@gmail.com"><i className="fab fa-google iconContacto"></i></a>
-        <a href="https://github.com/tmarenco"><i className="fab fa-github iconContacto"></i></a>
-        <a href="https://wa.link/jqlypa"><i className="fab fa-whatsapp iconContacto"></i></a> */}
         <a href="https://www.linkedin.com/in/tmarenco/"><FontAwesomeIcon icon={['fab', 'linkedin']} className="fab fa-linkedin-in iconContacto"></FontAwesomeIcon></a>
         <a href="mailto:tmarencocastello@gmail.com"><FontAwesomeIcon icon={['fab', 'google']} className="fab fa-google iconContacto"></FontAwesomeIcon></a>
         <a href="https://github.com/tmarenco"><FontAwesomeIcon icon={['fab', 'github']} className="fab fa-github iconContacto"></FontAwesomeIcon></a>
